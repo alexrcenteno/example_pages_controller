@@ -4,10 +4,10 @@ class ExamplePagesController < ApplicationController
   end
 
   def goodbye_method
-    render json: { message: "goodbye" }
+    render json: { message: "hello" }
   end
 
-  def awesome_method
-    render json: { message: "awesome" }
+  def car_method
+    render json: { car: "Honda", make: "Civic", year: 2008 }
   end
 end
